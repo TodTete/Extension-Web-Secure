@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "Secure WebSite",
+    "version": "1.0",
+    "description": "Analiza automáticamente los sitios web que visitas y te informa si son seguros o no.",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "notifications",
+        "storage"
+    ],
+    "host_permissions": [
+        "<all_urls>",
+        "https://safebrowsing.googleapis.com/"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icons/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "128": "icons/icon128.png"
+    }
+}

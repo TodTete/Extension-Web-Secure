@@ -1,0 +1,129 @@
+/* Modern & Impressive Styles */
+body {
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(135deg, #e3f0ff 0%, #f9fbe7 100%);
+  width: 320px;
+}
+
+.container {
+  background: #fff;
+  padding: 28px 22px;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.12), 0 1.5px 4px rgba(44,62,80,0.08);
+  margin: 18px 10px;
+  border: 1px solid #e0e7ef;
+  transition: box-shadow 0.3s;
+}
+
+.container:hover {
+  box-shadow: 0 12px 40px rgba(44,62,80,0.18), 0 2px 8px rgba(44,62,80,0.10);
+}
+
+h1 {
+  font-size: 22px;
+  color: #1565c0;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(21,101,192,0.08);
+}
+
+.info p {
+  margin: 10px 0;
+  font-size: 15px;
+  color: #37474f;
+  display: flex;
+  align-items: center;
+}
+#url {
+  max-width: 170px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.info strong {
+  color: #1565c0;
+  margin-right: 6px;
+  font-weight: 600;
+}
+
+span {
+  font-weight: 600;
+  color: #263238;
+}
+
+.indicator {
+  margin-top: 18px;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.07);
+  transition: background 0.3s, color 0.3s, border 0.3s, transform 0.2s;
+  animation: fadeIn 0.7s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+.indicator.safe {
+  background: linear-gradient(90deg, #e0f7e9 60%, #b2f7c9 100%);
+  color: #2e7d32;
+  border: 1.5px solid #66bb6a;
+}
+
+.indicator.risky {
+  background: linear-gradient(90deg, #fff8e1 60%, #ffe0b2 100%);
+  color: #f57c00;
+  border: 1.5px solid #ffb74d;
+}
+
+.indicator.danger {
+  background: linear-gradient(90deg, #fdecea 60%, #ffd1d1 100%);
+  color: #c62828;
+  border: 1.5px solid #ef5350;
+}
+
+.indicator.neutral {
+  background: linear-gradient(90deg, #eceff1 60%, #e3e7ea 100%);
+  color: #546e7a;
+  border: 1.5px solid #cfd8dc;
+}
+
+input#manual-url {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button#analyze-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button#analyze-btn:hover {
+  background-color: #0056b3;
+}
+
+#manual-result {
+  font-size: 13px;
+  margin-top: 10px;
+}

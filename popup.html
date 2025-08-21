@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Secure WebSite</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Secure WebSite</h1>
+      <h2>Analizar una URL</h2>
+      <input type="text" id="manual-url" placeholder="https://ejemplo.com" />
+      <button id="analyze-btn">Analizar</button>
+      <p id="manual-result"></p>
+      <div class="info">
+        <p><strong>URL:</strong> <span id="url">Cargando...</span></p>
+        <p><strong>Estado:</strong> <span id="status">Analizando...</span></p>
+        <p><strong>Puntaje:</strong> <span id="score">-</span>/5</p>
+        <div id="status-indicator" class="indicator neutral">Desconocido</div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
