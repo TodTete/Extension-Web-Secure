@@ -1,12 +1,11 @@
----
+# 🔒 Secure Web Site — Extensión de Chrome
 
-# Secure Web Site 🔒 — Extensión de Chrome
-
-> Analiza el URL de un sitio web para verificar su legitimidad y ayudarte a prevenir fraudes, phishing o páginas engañosas.
+> Extensión de seguridad que analiza la URL de los sitios web para verificar su legitimidad y ayudarte a prevenir fraudes, phishing o páginas engañosas.
 
 [![Manifest](https://img.shields.io/badge/Chrome%20Extension-MV3-informational)](#)
 [![Status](https://img.shields.io/badge/status-beta-orange)](#estado)
 [![Repo](https://img.shields.io/badge/repo-GitHub-blue)](https://github.com/TodTete/Extension-Web-Secure/tree/main)
+[![Author](https://img.shields.io/badge/author-Ricardo%20Vallejo-green)](#autor)
 
 ---
 
