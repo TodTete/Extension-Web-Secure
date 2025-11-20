@@ -78,7 +78,7 @@ Extension-Web-Secure/
 
 ## 👤 Autor
 
-**@Ricardo Vallejo**
+**@Ricardo Vallejo** / **@TodTete**
 🔗 [Repositorio oficial](https://github.com/TodTete/Extension-Web-Secure/tree/main)
 
 ---
